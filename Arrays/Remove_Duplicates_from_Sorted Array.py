@@ -1,4 +1,4 @@
-***Problem:***
+                                                      ***Problem:***
 
 Given an integer array nums sorted in non-decreasing order, remove the duplicates in-place such that each unique element appears only once. The relative order of the elements should be kept the same. Then return the number of unique elements in nums.
 
@@ -27,7 +27,7 @@ class Solution:
 
         return j
 
-*** Explanation ***
+                                                        *** Explanation ***
 
 nums = [1, 1, 2]
 j = 1 
@@ -40,5 +40,7 @@ i = 2
 nums[2] != nums[i - 1] :
 Increment j = 2.
 
-Result
-The function returns j = 2
+Result: The function returns j = 2
+
+---> Time Complexity: O(n)
+---> Space Complexity: O(1)
