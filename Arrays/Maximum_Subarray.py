@@ -40,3 +40,6 @@ num = -5: sum = max(-5, 6 + -5) = 1, total = max(6, 1) = 6
 num = 4: sum = max(4, 1 + 4) = 5, total = max(6, 5) = 6
 
 Result: return total is 6.
+
+---> Time Complexity: O(n)
+---> Space Complexity: O(1)
