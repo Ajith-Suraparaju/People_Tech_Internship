@@ -1,4 +1,4 @@
-***Problem:**
+                                                ***Problem:**
 
 Given an array of integers nums and an integer target, return indices of the two numbers such that they add up to target.
 
@@ -20,7 +20,7 @@ Example 3:
 Input: nums = [3,3], target = 6
 Output: [0,1]
 
-***Code:***
+                                            ***Code:***
     
 class Solution:
     def twoSum(self, nums: List[int], target: int) -> List[int]:
@@ -30,7 +30,7 @@ class Solution:
                     return [i,j]
         return []
 
-***Explanation:***
+                                        ***Explanation:***
 nums = [3,2,4], target = 6
 
 outer loop 1:
@@ -52,3 +52,5 @@ nums[i] + nums[j] == target:
 Output:
 The function returns [1, 2].
 
+---> Time Complexity: O(n * n) 0r O(n2)
+---> Space Complexity: O(1)
