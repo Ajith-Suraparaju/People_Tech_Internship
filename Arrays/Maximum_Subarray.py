@@ -1,4 +1,4 @@
-***Problem:***
+                                              ***Problem:***
 
 Given an integer array nums, find the 
 subarray
@@ -10,7 +10,7 @@ Input: nums = [-2,1,-3,4,-1,2,1,-5,4]
 Output: 6
 Explanation: The subarray [4,-1,2,1] has the largest sum 6.
 
-***Code:***
+                                               ***Code:***
 
 class Solution:
     def maxSubArray(self, nums: List[int]) -> int:
@@ -23,7 +23,7 @@ class Solution:
         
         return total
 
-***Explanation:***
+                                            ***Explanation:***
 
 nums = [-2,1,-3,4,-1,2,1,-5,4].
 
