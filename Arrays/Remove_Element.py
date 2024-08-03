@@ -58,3 +58,5 @@ j remains 2.
 
 Output: 2
 
+  ---> Time Complexity: O(n)
+  ---> Space Complexity: O(1)
