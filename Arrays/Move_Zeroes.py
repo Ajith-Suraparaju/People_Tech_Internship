@@ -51,3 +51,5 @@ Increment j: j = 3
 
 Oitput: [1, 3, 12, 0, 0].
 
+---> Time Complexity: O(n)
+---> Space Complexity: O(1)
