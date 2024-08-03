@@ -1,4 +1,4 @@
-/*
+/* Problem:
 
 Given an array of integers nums and an integer target, return indices of the two numbers such that they add up to target.
 
@@ -24,6 +24,8 @@ Output: [0,1]
 
 */
 
+Code:
+    
 class Solution:
     def twoSum(self, nums: List[int], target: int) -> List[int]:
         j = 1
@@ -32,3 +34,7 @@ class Solution:
                 if nums[i] + nums[j] == target:
                     return [i,j]
         return []
+
+Explanation:
+
+
