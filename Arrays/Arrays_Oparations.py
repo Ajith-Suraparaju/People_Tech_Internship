@@ -4,7 +4,7 @@ Arr = [1,2,3,4,5,6,7]
 
 ***Create an Array in Python ***
 Array in Python can be created by importing an array module. array(data_type, value_list) is used to create array in Python with data type and value list specified in its arguments
-
+ 
 import array as arr
 a = arr.array('i', [1, 2, 3])
 print("The new created array is : ", end=" ")
