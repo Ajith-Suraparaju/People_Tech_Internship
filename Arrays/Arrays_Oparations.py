@@ -13,7 +13,7 @@ for i in range(0, 3):
 
 Output: [1,2,3]
 
-*** Updating Elements in a Array ***
+*** Updating Elements in a Array *** 
 In order to update an element in the array we simply reassign a new value to the desired index we want to update.
 
 import array
