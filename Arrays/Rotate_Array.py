@@ -22,7 +22,36 @@ class Solution:
 
                                   *** Explanantion ***
 
+l = 7 -1 = 6, k = 3
 
+when i = 6, 6 > 3
+t = 7
+j = 6, 6 > 0:
+nums[6] = nums[5], = 6
+nums[5] = nums[4], = 5
+nums[4] = nums[3], = 4
+nums[3] = nums[2], = 3
+nums[2] = nums[1], = 2
+nums[1] = nums[0], = 1, j > 0, (1 > 0)
+nums[0] = t, = 7
+
+nums = [7,1,2,3,4,5,6]
+
+when i = 5, 5 > 3
+t = 6
+j = 6, 6 > 0:
+
+nums = [6,7,1,2,3,4,5]
+
+when i = 4, 4 > 3
+t = 5
+j = 6, 6 > 0:
+
+nums [ 5,6,7,1,2,3,4]
+
+when i = 3, 3 !> 3 loop end's
+
+Output: [5,6,7,1,2,3,4]
 
 ---> Time Complexity: O(n*n) or O(n2)
 ---> Space Complexity: O(1)
